@@ -32,14 +32,14 @@ const Contact = () => (
             {/* Mapa */}
             <div className="w-full md:w-1/2 min-h-[400px] bg-slate-100">
                 <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d14569.256257279867!2d-65.0449833!3d-24.1764124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1smonterrico%20jujuy%20iglesia!5e0!3m2!1ses-419!2sar!4v1700000000000!5m2!1ses-419!2sar"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d908.077603193736!2d-65.16313007301635!3d-24.440013432522317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bade12948477b%3A0x6621546aeca1ebb!2sMinisterio%20&#39;Jesus%20es%20la%20Roca&#39;!5e0!3m2!1ses-419!2sar!4v1766079683213!5m2!1ses-419!2sar"
                     width="100%"
                     height="100%"
                     style={{border: 0}}
                     allowFullScreen=""
                     loading="lazy"
                     title="Mapa"
-                    className="w-full h-full grayscale contrast-[0.9]"
+                    className="w-full h-full"
                 ></iframe>
             </div>
         </div>

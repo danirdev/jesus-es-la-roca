@@ -1,14 +1,14 @@
 import
-    {
-        Users, Star, Music, Sun, Moon, Heart, Video
-    } from 'lucide-react';
+{
+    Users, Star, Music, Sun, Moon, Heart, Video
+} from 'lucide-react';
 
 export const DATA = {
     name: "Jesús es la Roca",
     location: "Monterrico, Jujuy",
-    address: "Barrio San Isidro, Calle Los Lapachos s/n",
+    address: "Rufino Arias 825",
     facebook: "https://www.facebook.com/JESUSESLAROCA12/",
-    whatsapp: "5493881234567",
+    whatsapp: "549388-1234567",
     stream: "https://stream.zeno.fm/tu-radio-stream"
 };
 
@@ -59,5 +59,5 @@ export const MINISTRIES = [
     {title: "Escuela Bíblica", icon: Heart, desc: "Formación infantil"},
     {title: "Multimedia", icon: Video, desc: "Comunicación visual"},
     {title: "Alabanza", icon: Music, desc: "Adoración y música"},
-    {title: "Damas", icon: Users, desc: "Grupo de mujeres"},
+    {title: "Liderazgo", icon: Users, desc: "Equipo de liderazgo"},
 ];

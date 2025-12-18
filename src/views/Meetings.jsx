@@ -9,13 +9,13 @@ const Meetings = () => (
 
             <div className="space-y-8 relative">
                 {/* Línea de tiempo decorativa */}
-                <div className="absolute left-4 md:left-24 top-4 bottom-4 w-px bg-slate-100 hidden md:block"></div>
+                <div className="absolute left-4 md:left-32 top-4 bottom-4 w-px bg-slate-100 hidden md:block"></div>
 
                 {WEEKLY_AGENDA.map((item) => (
                     <div key={item.id} className="relative flex flex-col md:flex-row gap-6 md:gap-12 items-start group">
 
                         {/* Columna Tiempo */}
-                        <div className="flex items-center gap-4 md:w-24 md:flex-col md:items-end md:text-right shrink-0">
+                        <div className="flex items-center gap-4 md:w-32 md:pr-6 md:flex-col md:items-end md:text-right shrink-0">
                             <div className="md:hidden w-8 h-8 rounded-full bg-slate-50 flex items-center justify-center text-slate-900">
                                 <item.icon size={16} />
                             </div>
@@ -26,7 +26,7 @@ const Meetings = () => (
                         </div>
 
                         {/* Punto en línea de tiempo (Desktop) */}
-                        <div className="hidden md:flex absolute left-24 -ml-1.5 w-3 h-3 rounded-full bg-white border-2 border-slate-200 group-hover:border-slate-900 group-hover:scale-125 transition-all mt-2"></div>
+                        <div className="hidden md:flex absolute left-32 -ml-1.5 w-3 h-3 rounded-full bg-white border-2 border-slate-200 group-hover:border-slate-900 group-hover:scale-125 transition-all mt-2"></div>
 
                         {/* Tarjeta de Contenido */}
                         <div className="flex-grow bg-slate-50 p-6 md:p-8 rounded-sm hover:bg-slate-100 transition-colors duration-300 border-l-2 border-transparent hover:border-slate-900">
