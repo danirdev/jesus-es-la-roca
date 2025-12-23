@@ -1,7 +1,4 @@
-import
-{
-    Users, Star, Music, Sun, Moon, Heart, Video
-} from 'lucide-react';
+import {Users, Star, Music, Sun, Moon, Heart, Video} from 'lucide-react';
 
 export const DATA = {
     name: "Jesús es la Roca",

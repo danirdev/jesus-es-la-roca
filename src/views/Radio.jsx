@@ -26,7 +26,7 @@ const Radio = () =>
             <div className="max-w-md w-full text-center space-y-12">
                 <div>
                     <span className="text-xs font-bold tracking-[0.3em] uppercase text-slate-500">Transmisión Online</span>
-                    <h2 className="text-2xl text-white font-bold mt-4">Radio La Roca</h2>
+                    <h2 className="text-2xl text-white font-bold mt-4">Radio FM Vida</h2>
                 </div>
 
                 <div className="relative group cursor-pointer" onClick={togglePlay}>
