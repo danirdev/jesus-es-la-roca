@@ -29,7 +29,7 @@ export const WEEKLY_AGENDA = [
     {
         id: 3,
         day: "Sábados",
-        time: "Horario a confirmar",
+        time: "20:00",
         title: "Red de Jóvenes / Prejuveniles",
         desc: "Actividades dinámicas, plenarias y compañerismo. (Rotativo según fecha).",
         icon: Music
@@ -57,4 +57,49 @@ export const MINISTRIES = [
     {title: "Multimedia", icon: Video, desc: "Comunicación visual"},
     {title: "Alabanza", icon: Music, desc: "Adoración y música"},
     {title: "Liderazgo", icon: Users, desc: "Equipo de liderazgo"},
+];
+
+export const RADIO_PROGRAMMING = [
+    {
+        id: 1,
+        time: "08:00 - 10:00",
+        title: "Programa 1",
+        host: "Locutor 1",
+        days: "Lunes a Viernes"
+    },
+    {
+        id: 2,
+        time: "10:00 - 12:00",
+        title: "Programa 2",
+        host: "Locutor 2",
+        days: "Lunes a Viernes"
+    },
+    {
+        id: 3,
+        time: "14:00 - 16:00",
+        title: "Programa 3",
+        host: "Locutor 3",
+        days: "Lunes a Viernes"
+    },
+    {
+        id: 4,
+        time: "18:00 - 20:00",
+        title: "Programa 4",
+        host: "Locutor 4",
+        days: "Lunes a Viernes"
+    },
+    {
+        id: 5,
+        time: "20:00 - 22:00",
+        title: "Programa 5",
+        host: "Locutor 5",
+        days: "Todos los días"
+    },
+    {
+        id: 6,
+        time: "23:00 - 00:00",
+        title: "Programa 6",
+        host: "Locutor 6",
+        days: "Todos los días"
+    }
 ];
